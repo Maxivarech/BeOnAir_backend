@@ -1,0 +1,50 @@
+@baseUrl = http://localhost:3001
+
+### Read all photos
+GET {{baseUrl}}/photos
+
+### Read all photos filtered by series (series name that contains ampersand)
+GET {{baseUrl}}/photos?series=Animaux
+
+### Read one by id
+GET {{baseUrl}}/photos/3
+
+### Read one by id (that doesn't exist)
+GET {{baseUrl}}/photos/99
+
+### Read all photos ordered by serie
+GET {{baseUrl}}/photos?order=serie
+
+### Read all photos ordered by serie (reverse order)
+GET {{baseUrl}}/photos?order=-serie
+
+### Create a photo
+POST {{baseUrl}}/photos
+Content-Type: application/json
+
+{
+    "author": "Xavier",
+    "name": "Lion",
+    "price": 1400,
+    "series": "Animaux"
+}
+
+### DELETE photo by ID
+DELETE {{baseUrl}}/photos/5
+
+### UPDATE the photo by ID
+PATCH {{baseUrl}}/photos/4
+Content-Type: application/json
+
+{
+    "price": 150
+}
+
+### GET Static image
+GET {{baseUrl}}/images/lion.jpg
+
+### GET a serie by id
+GET {{baseUrl}}/series/1
+
+### GET a serie by name
+GET {{baseUrl}}/series?name=animaux

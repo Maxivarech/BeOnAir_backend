@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "author": "Antoine",
+    "name": "Chèvre des montagnes",
+    "price": 185,
+    "serie": "Animaux",
+    "pathImage": "goat.jpg"
+},
+{
+    "id": 2,
+    "author": "Mathieu",
+    "name": "mon grand père dans son fauteuil",
+    "price": 75.89,
+    "serie": "Portraits",
+    "pathImage": "papy.jpg"
+},
+{
+    "id": 3,
+    "author": "Moise",
+    "name": "Burger fait maison",
+    "price": 32,
+    "serie": "Nourriture",
+    "pathImage": "burger.jpg"
+},
+{
+    "id": 4,
+    "author": "Antoine",
+    "name": "Bruxelles by night",
+    "price": 112,
+    "serie": "Ville",
+    "pathImage": "brussels.jpg"
+},
+{
+    "id": 5,
+    "author": "Jimmy",
+    "name": "Mars depuis mon jardin",
+    "price": 31.99,
+    "serie": "Espace",
+    "pathImage": "mars.jpg"
+},
+]
