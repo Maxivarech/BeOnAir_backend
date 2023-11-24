@@ -26,7 +26,7 @@ Content-Type: application/json
     "author": "Xavier",
     "name": "Lion",
     "price": 1400,
-    "series": "Animaux"
+    "serie": "Animaux"
 }
 
 ### DELETE photo by ID
@@ -41,7 +41,7 @@ Content-Type: application/json
 }
 
 ### GET Static image
-GET {{baseUrl}}/images/lion.jpg
+GET {{baseUrl}}/images/Ville1.jpg
 
 ### GET a serie by id
 GET {{baseUrl}}/series/1
