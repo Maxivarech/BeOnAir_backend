@@ -33,10 +33,10 @@ router.get('/', (req, res, next) => {
  });
 
  // Read one serie by ID
-router.get('/:id', (req, res, next) => {
+router.get('/:name', (req, res, next) => {
     const serie = parse(jsonDbPath, SERIES);
   
-    const indexFound = serie.findIndex(x => x.id == req.params.id);
+    const indexFound = serie.findIndex(x => x.name == req.params.name);
   
     if(indexFound < 0 ) return res.sendStatus(404)
   

@@ -30,7 +30,7 @@ Content-Type: application/json
 }
 
 ### DELETE photo by ID
-DELETE {{baseUrl}}/photos/5
+DELETE {{baseUrl}}/photos/20
 
 ### UPDATE the photo by ID
 PATCH {{baseUrl}}/photos/4
@@ -41,10 +41,10 @@ Content-Type: application/json
 }
 
 ### GET Static image
-GET {{baseUrl}}/images/Ville1.jpg
+GET {{baseUrl}}/images/Ville4.jpg
 
 ### GET a serie by id
-GET {{baseUrl}}/series/1
+GET {{baseUrl}}/series
 
 ### GET a serie by name
-GET {{baseUrl}}/series?name=animaux
+GET {{baseUrl}}/series/series?name=Animaux
