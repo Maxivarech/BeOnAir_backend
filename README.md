@@ -22,3 +22,14 @@ Auteurs:
 [Maxence Van Grunderbeeck](https://github.com/haemos0)
 
 [Maxime Van Rechem](https://github.com/Maxivarech)
+
+
+
+project sources :
+
+- https://nextjs.org/learn-pages-router/basics/create-nextjs-app/setup 
+- https://nextjs.org/docs#main-features
+- https://youtu.be/WAMqFdCFotY?si=KyUlvbae9ga1QFYK
+- https://youtu.be/KWYg-qxgQJg
+- https://www.freecodecamp.org/news/build-a-full-stack-application-with-nextjs/
+- https://www.geeksforgeeks.org/nextjs/
